@@ -3,7 +3,7 @@ let Client = require("node-rest-client").Client;
 let bodyParser = require('body-parser');
 let config = require('../config.json');
 let ACCESSTOKEN = config.key;
-let BILTYENDPOINT = config.bitly_endpoint;
+let BITLYENDPOINT = config.bitly_endpoint;
 
 let Promise = require('promise');
 let client = new Client();
@@ -34,11 +34,11 @@ let shortenURL = function(bitlyRequest){
 // The API that returns the in-email representation.
 module.exports = function(req, res) {
   console.log("here");
-  let original_url = req.query.text.trim();
-    let getURLShortened = BITLY_ENDPOINT;
+  let originalURL = req.query.text.trim();
+    let getURLShortened = BITLYENDPOINT;
     let originalURLEncoded = formatOriginalURL(originalURL);
     getURLShortened += '/v3/shorten?access_token=' +
-                          ACCESS_TOKEN +
+                          ACCESSTOKEN +
                           '&longUrl=' +
                           originalURLEncoded +
                           '&format=txt';
