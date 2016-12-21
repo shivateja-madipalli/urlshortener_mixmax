@@ -23,7 +23,7 @@ Once you create the Slash command, write a email with below slash command
 
 ##`/bitly [enter the url]`
 
-_example:_ 
+_Example:_ 
 
 /bitly https://shivatejam.com 
 
