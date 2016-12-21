@@ -40,7 +40,7 @@ _Features:_
 Reduces the huge URL into a length which will be easily shareable.
 A String copied will be converted into an html anchor tag
 
-_Scope for enhancements:_
+_Scope for Enhancements:_
 
 A help text can be created for the link like, title of the website shared or a piece of info about the link.
 
