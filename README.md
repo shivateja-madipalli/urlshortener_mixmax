@@ -33,7 +33,7 @@ will be converted into **http://bit.ly/2hZXQid**
 
 will be converted into **http://bit.ly/2hZYtIG**
 
-The whole idea of implementing Bitly shortener is to shorten the URL which will be shared via email as it becomes tedious to share a huge link and many use bitly or similar services.
+The whole idea of implementing Bitly shortener is to shorten the URL as it becomes ugly to share a huge link, like a link to a google photo etc; which ideally is a really long URL with cryptic ASCII characters 🤓 
 
 _Features:_
 Reduces the huge URL into a length which will be easily shareable.
