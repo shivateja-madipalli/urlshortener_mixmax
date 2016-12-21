@@ -6,16 +6,18 @@ _How to use it?_
 
 Create a Slash Command with these details
 
-*Name
-  *Bitly Shortener
+* Name
+ * Bitly Shortener
 
-*Command
-  *bitly
-*Parameter placeholder
-  *[URL]
-*Typeahead API URL
+* Command
+ * bitly
 
-*Resolver API URL
+* Parameter placeholder
+ * [URL]
+
+* Typeahead API URL
+
+* Resolver API URL
 
 Once you create the Slash command, write a email with below slash command
 
