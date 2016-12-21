@@ -39,14 +39,13 @@ The whole idea of implementing Bitly shortener is to shorten the URL as it becom
 
 _Features:_
 
-Reduces the huge URL into a length which will be easily shareable.
-A String copied will be converted into an html anchor tag
+* Reduces the huge URL into a length which will be easily shareable.
+* A String copied will be converted into an html anchor tag
 
 _Scope for Enhancements:_
 
-A help text can be created for the link like, title of the website shared or a piece of info about the link.
-
-A tool box can be populated for editing the link. For example, font, size, color etc.
+* A help text can be created for the link like, title of the website shared or a piece of info about the link.
+* A tool box can be populated for editing the link. For example, font, size, color etc.
 
 
 _Technologies used:_
