@@ -1,12 +1,8 @@
-var key = require('../utils/key');
-var sync = require('synchronize');
-var request = require('request');
-var _ = require('underscore');
 var validUrl = require('valid-url');
 
 // The Type Ahead API.
 module.exports = function(req, res) {
-  var term = req.query.text.trim();
+  let term = req.query.text.trim();
   if (!term) {
     res.json([{
       title: '<i>(Enter Original URL)</i>',
@@ -15,7 +11,7 @@ module.exports = function(req, res) {
     return;
   }
 
-  var response;
+  let response;
 
   if (validUrl.isUri(term)) {
     console.log('Looks like an URL');
