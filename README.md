@@ -21,7 +21,7 @@ Create a Slash Command with these details
 * Resolver API URL
  * https://urlshortenermixmax.herokuapp.com/resolver
 
-Once you create the Slash command, write a email with below slash command
+Once you create the Slash command, write an email with below slash command
 
 ##`/bitly [enter the url]`
 
