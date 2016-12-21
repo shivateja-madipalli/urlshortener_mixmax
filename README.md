@@ -16,8 +16,10 @@ Create a Slash Command with these details
  * [URL]
 
 * Typeahead API URL
+ * https://urlshortenermixmax.herokuapp.com/typeahead
 
 * Resolver API URL
+ * https://urlshortenermixmax.herokuapp.com/resolver
 
 Once you create the Slash command, write a email with below slash command
 
