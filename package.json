@@ -1,0 +1,35 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "An URL Shortner API for MixMax",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivateja-madipalli/urlshortener_mixmax.git"
+  },
+  "keywords": [
+    "urlshortener",
+    "short",
+    "url"
+  ],
+  "author": "big_hair_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivateja-madipalli/urlshortener_mixmax/issues"
+  },
+  "homepage": "https://github.com/shivateja-madipalli/urlshortener_mixmax#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-json": "^1.0.0",
+    "node-rest-client": "^2.0.1",
+    "request": "^2.79.0",
+    "synchronize": "^2.0.0",
+    "underscore": "^1.8.3",
+    "valid-url": "^1.0.9"
+  }
+}
