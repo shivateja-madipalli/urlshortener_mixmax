@@ -1,7 +1,3 @@
-var key = require('../utils/key');
-var sync = require('synchronize');
-var request = require('request');
-var _ = require('underscore');
 var validUrl = require('valid-url');
 
 // The Type Ahead API.
